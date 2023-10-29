@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "459556233253",
+    "project_id": "moitter-337e4",
+    "storage_bucket": "moitter-337e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459556233253:android:8fbd687013261dfb6d5fcc",
+        "android_client_info": {
+          "package_name": "jp.ac.gifu_u.z3033113.moitter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459556233253-82a54fh62l0tlhqmc510uff4j75m2hcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGwP4OneSwCVqQM61nstE3dRo2A3MFrk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459556233253-82a54fh62l0tlhqmc510uff4j75m2hcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

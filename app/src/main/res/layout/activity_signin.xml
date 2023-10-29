@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:overScrollMode="never"
+    android:clipToPadding="false"
+    tools:context=".custom.SignIn">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Moitter"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="LoginしてMoitterを開始"
+            android:textSize="20dp"
+
+            android:textColor="@color/cardview_dark_background"
+            />
+
+    <EditText
+        android:id="@+id/email"
+        android:importantForAutofill="no"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/white"
+        android:background="@color/cardview_dark_background"
+        android:imeOptions="actionNext"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/white"
+        android:textSize="16dp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="30dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/white"
+            android:background="@color/cardview_dark_background"
+            android:imeOptions="actionDone"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/white"
+            android:textSize="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:text="SIGN IN"
+            android:textStyle="bold"
+            app:backgroundTint="@color/teal_700" />_
+
+
+        <TextView
+            android:id="@+id/text_newaccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="新しくアカウントを作成"
+            android:textColor="#2B3671"
+            android:textColorHighlight="#0B86B6"
+            android:textSize="15dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:layout_marginTop="16dp">
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                >
+
+            </ProgressBar>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
